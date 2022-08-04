@@ -1,0 +1,114 @@
+.comment {
+	margin-left: auto;
+	height: 7rem;
+}
+
+.comment:hover {
+	transform: scale(1.05);
+}
+
+.list {
+	margin-top: 2rem;
+	text-align: left;
+	list-style: none;
+}
+
+.list .list-home {
+	margin-bottom: 1rem;
+	padding: 1rem;
+	background: rgba(255, 255, 255, 0.794);
+	border-radius: 6px;
+	border: 1px solid rgba(128, 128, 128, 0.493);
+	transition: all 0.1s ease;
+	display: flex;
+	align-items: center;
+}
+
+.list-home-title {
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+	font-size: 15px;
+}
+
+.list-home span {
+	display: block;
+	line-height: 1.2;
+	margin-bottom: 0.5rem;
+}
+
+.list-home .list-home-content {
+	font-size: 13px;
+	flex-basis: 360px;
+}
+
+.loader {
+	margin: 1.5rem auto;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 3px solid black;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	animation-name: loader;
+	animation-duration: 0.8s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+}
+
+.input {
+	border-radius: 6px;
+	outline: none;
+	display: block;
+	margin-top: 1rem;
+	padding: 0.5rem;
+	text-align: left;
+	width: 100%;
+	border: 1px solid rgba(128, 128, 128, 0.493);
+}
+
+.button {
+	border: 0;
+	padding: 0.6rem 1.2rem;
+	text-align: center;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+	display: block;
+	border-radius: 5px;
+	transition: all 0.2s ease;
+}
+
+.button:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.button:active {
+	background: rgb(254, 197, 205);
+	transform: translateY(1px);
+}
+
+.button-success {
+	background: rgb(254, 197, 205);
+	color: white;
+}
+
+.button-center {
+	margin: auto;
+}
+
+.button-right {
+	float: right;
+	margin-top: 1rem;
+}
+
+.icon {
+	margin-right: 10px;
+}
+
+@keyframes loader {
+	100% {
+		transform: rotate(500deg);
+	}
+}
