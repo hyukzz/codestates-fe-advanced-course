@@ -15,6 +15,13 @@
 ![댓글보기](https://user-images.githubusercontent.com/81045794/183086959-64a4103c-9080-4f9d-b8f9-e75705d15dc5.gif)
 
 ---
+## 사용한 스택 목록
+
+- react
+- JavaScript
+- css
+- github pages
+---
 
 ## 프로젝트 실행 방법
 
