@@ -12,9 +12,8 @@ function CommentsContainer(props) {
 			.then(data => {
 				setComments(data);
 				setIsLoading(false);
-				console.log(comments);
 			});
-	}, [comments, id]);
+	}, []);
 
 	return <CommentsList {...{ isLoading, comments }} />;
 }
